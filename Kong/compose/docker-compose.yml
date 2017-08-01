@@ -70,12 +70,12 @@ kong:
   
 #Kong dashboard
 
-kong-dashboard:
-  image: pgbi/kong-dashboard:v2
-  restart: always
-  links:
-    - kong
-  ports:
-    - 8080:8080
-  expose:
-      - 8080
+# kong-dashboard:
+#   image: pgbi/kong-dashboard:v2
+#   restart: always
+#   links:
+#     - kong
+#   ports:
+#     - 8080:8080
+#   expose:
+#       - 8080
